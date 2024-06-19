@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 
 export default function App() {
 
-  const ipAddress = "http://192.168.101.6:3000"
+  const ipAddress = "https://danc3.onrender.com"
 
   store.dispatch({ type: 'SET_IP', payload: ipAddress })
 

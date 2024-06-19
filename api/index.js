@@ -74,7 +74,7 @@ const sendVerificationEmail = async (email, verificationToken) => {
         from: "kobisocial.com",
         to: email,
         subject: "Email Verification",
-        text: `Please click on the link to verify your email: http://192.168.101.6:3000/verify/${verificationToken}`
+        text: `Please click on the link to verify your email: https://danc3.onrender.com/verify/${verificationToken}`
     }
 
     try {
